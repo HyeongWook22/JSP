@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP 실습</title>
+</head>
+<body>
+	실습리스트
+	<p><a href = "2_1">예제 2-1(page 65)</a></p>
+	<p><a href = "2_2">예제 2-2(page 66)</a></p>
+	<p><a href = "2_3">예제 2-3(page 67)</a></p>
+	<p><a href = "2_4">예제 2-4(page 69)</a></p>
+</body>
+</html>
