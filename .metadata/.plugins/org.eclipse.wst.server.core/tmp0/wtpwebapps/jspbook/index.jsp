@@ -62,7 +62,24 @@
 	<p>비밀번호 : <input type = "text" name = "passwd">
 	<p> <input type = "submit" value = "전송">
 	</form>
+	
 	<p><a href = "5_2">예제 5-2 (page 171)</a></p>
 	<p><a href = "5_3">예제 5-3 (page 173)</a></p>	
+	
+	<form action = "5_4" method = "post">
+	예제 5-4(page 178)
+	<p>아 이 디 : <input type = "text" name = "id">
+	<p>비밀번호 : <input type = "text" name = "passwd">
+	<p> <input type = "submit" value = "전송">
+	</form>
+	
+	<p><a href = "5_5">예제 5-5 (page 181)</a></p>
+	<p><a href = "5_7">예제 5-7 (page 185)</a></p>
+	<p><a href = "5_8">예제 5-8 (page 186)</a></p>
+	
+	<hr>
+	
+	<p><a href = "6_1">예제 6-1~5 (page 205~216)</a></p>
+		
 </body>
 </html>

@@ -36,8 +36,9 @@
 				<h5><b><%= book.getName() %></b></h5>
 				<p> <%= book.getAuthor() %>
 				<br><%= book.getPublisher() %> | <%=book.getUnitPrice() %>원
-				<p> 37<%=book.getDescription().substring(0, 60) %>...
+				<p> <%=book.getDescription() %>
 				<p> <%= book.getUnitPrice() %>원
+				<P> <a href = "book.jsp?id=<%=book.getBookId()%>" class = "btn btn-secondary" role = "button">상세 정보 &raquo;></a>
 			</div>
 		</div>
 		<%

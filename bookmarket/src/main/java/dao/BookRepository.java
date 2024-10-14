@@ -29,8 +29,8 @@ public class BookRepository
 		
 		Book book3 = new Book("ISBN1236", "파이썬 프로그래밍", 30000);
 		book3.setAuthor("최성철");
-		book3.setDescription("파이썬으로 프로그래밍을 시작하는 입문자가 쉽게 이해할 수 있도록 기본 개념을 상세하게 설명하며, 다양한 예제를 제시합니다."
-				+ "또한 프로그래밍의 기초 원리를 이해하면서 파이썬으로 데이터를 처리하는 기법도 배웁니다.");
+		book3.setDescription("파이썬으로 프로그래밍을 시작하는 입문자가 쉽게 이해할 수 있도록 기본 개념을 상세하게 설명하며, 다양한 예제를 제시합니다. "
+				+ " 또한 프로그래밍의 기초 원리를 이해하면서 파이썬으로 데이터를 처리하는 기법도 배웁니다.");
 		book3.setPublisher("한빛아카데미");
 		book3.setCategory("IT모바일");
 		book3.setUnitsInStock(1000);
@@ -44,5 +44,21 @@ public class BookRepository
 	public ArrayList<Book> getAllBooks()
 	{
 		return listOfBooks;
+	}
+	
+	public Book getBookById(String bookId)
+	{
+		Book bookById = null;
+		
+		for (int i=0; i < listOfBooks.size(); i++)
+		{
+			Book book = listOfBooks.get(i);
+			if (book!=null && book.getBookId()!=null && book.getBookId().equals(bookId))
+			{
+				bookById = book;
+				break;
+			}
+		}
+		return bookById;
 	}
 }
