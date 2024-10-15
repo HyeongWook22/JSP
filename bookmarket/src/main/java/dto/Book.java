@@ -16,6 +16,8 @@ public class Book implements Serializable
 	private long unitsInStock;
 	private String releaseDate;
 	private String condition;
+	private String filename;
+
 
 	public Book()
 	{
@@ -127,5 +129,13 @@ public class Book implements Serializable
 	public void setCondition(String condition) 
 	{
 		this.condition = condition;
+	}
+
+	public String getFilename() {
+		return filename;
+	}
+
+	public void setFilename(String filename) {
+		this.filename = filename;
 	}
 }
