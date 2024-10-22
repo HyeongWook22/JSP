@@ -40,15 +40,24 @@ String tagline = "Welcome to Web Market!";
 					int hour = day.getHours();
 					int minute = day.getMinutes();
 					int second = day.getSeconds();
-					if (hour / 12==0)
+					if (hour < 12)
 					{
 						am_pm = "AM";
 					}
 					else
 					{
 						am_pm = "PM";
+					}
+					
+					if (hour == 0) 
+					{
+						hour = 12;
+					}
+					else if(hour > 12)
+					{
 						hour = hour - 12;
 					}
+					
 					String CT = hour + ":" + minute + ":" + second + " " + am_pm;
 					out.println("현재 접속 시각: " + CT + "\n");
 				%>
