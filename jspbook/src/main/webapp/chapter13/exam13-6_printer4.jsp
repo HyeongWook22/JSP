@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Insert title here</title>      
 </head>
 <body>
 	<h4>-----세션을 삭제하기 전-----</h4>
