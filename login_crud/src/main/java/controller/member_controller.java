@@ -38,8 +38,9 @@ public class member_controller extends HttpServlet
 		member_repository mr = member_repository.getInstance();
 		mr.member_create(dto);
 		
-		//뷰이동
+		resp.sendRedirect("readall");
 		
+		//뷰이동
 	}
 
 }
