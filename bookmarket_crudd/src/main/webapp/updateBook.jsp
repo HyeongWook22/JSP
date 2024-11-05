@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %>
 <%@ page import="dto.Book" %>
+<%@ page session="false" %>
 <%
 	Book bk = (Book)request.getAttribute("dto");
 %>

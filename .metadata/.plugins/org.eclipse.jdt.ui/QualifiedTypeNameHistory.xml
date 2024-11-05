@@ -8,4 +8,9 @@
     <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="dao.BookRepository"/>
     <fullyQualifiedTypeName name="dto.Book"/>
+    <fullyQualifiedTypeName name="dao.MemberRepository"/>
+    <fullyQualifiedTypeName name="dto.member"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="dao.boardRepository"/>
 </qualifiedTypeNameHistroy>

@@ -3,6 +3,7 @@
 <%@ page import = "dto.Book" %>
 <%@ page import = "dao.BookRepository" %>
 <%@ page errorPage = "exceptionNoBookId.jsp" %>
+<%@ page session="false" %>
 <% 
 	System.out.println("book.jsp에 도착");
 	Book bk = (Book)request.getAttribute("dto");

@@ -3,6 +3,7 @@
 <%@ page import="java.sql.*" %>
 <%@ page import = "java.util.*" %>
 <%@ page import = "dto.Book" %>
+<%@ page session="false" %>
 <% 
 	System.out.println("editBook.jsp 도착"); 
 	ArrayList<Book> arr = (ArrayList<Book>)request.getAttribute("list");

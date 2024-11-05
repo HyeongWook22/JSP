@@ -4,6 +4,7 @@
 <%@ page import = "dto.Book" %>
 <%@ page import = "dao.BookRepository" %>
 <%@ page import = "java.sql.*" %>
+<%@ page session="false" %>
 <% System.out.println("books.jsp 로 도착"); %>
 <jsp:useBean id = "bookDAO" class = "dao.BookRepository" scope = "session" />
 <!DOCTYPE html>
